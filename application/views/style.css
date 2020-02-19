@@ -1,0 +1,83 @@
+#main {
+   margin:0 auto;
+   width:1024px;
+}
+
+#top {
+   width:1024px;
+   height:120px;
+   background-color:#bad1e4;
+   font-size:100px;
+   color:#84add0;
+   text-align:center;
+}
+
+#leftMenu {
+   width:140px;
+   height:100%;
+   background-color:#f1f1f1;
+   float:left;
+   font-size:20px;
+   padding:20px;
+  
+	
+
+}
+
+#content {
+   width:820px;
+   min-height:600px;
+   /*background-color:#ffCCff;*/
+   margin-left:180px;
+   padding:10px;
+  /* padding-top:20px;*/
+   border:2px solid;
+}
+
+#topic {
+   min-height:600px;
+     
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   
+.topicimg {
+	width:450px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   
+ .prevNews  { /* не используется */
+	min-height:190;
+  }
+ .category{
+  margin: 0;
+ }  
+ .text{
+  margin: 0;
+ }
+ .autor{
+ margin-top: 10; 
+ color:#20B2AA;
+ }
+ .tableAdmin {
+ border:1px solid;/* Рамка вокруг таблицы border: 1px solid green;  */
+ margin: auto;
+ width:700;
+ 
+ }
+ .tableAdmin td{
+ vertical-align: middle; 
+ border: 1px solid black; 
+ }
+ .exit{
+ float:right;
+ }
+ h2{
+ margin: 0;
+ }
+ 
+   
