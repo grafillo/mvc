@@ -5,7 +5,7 @@
 
 #top {
    width:1024px;
-   height:120px;
+   height:320px;
    background-color:#bad1e4;
    font-size:100px;
    color:#84add0;
@@ -13,11 +13,11 @@
 }
 
 #leftMenu {
-   width:140px;
+   width:220px;
    height:100%;
    background-color:#f1f1f1;
    float:left;
-   font-size:20px;
+   font-size:40px;
    padding:20px;
   
 	
