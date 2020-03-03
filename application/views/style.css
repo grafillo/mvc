@@ -5,7 +5,7 @@
 
 #top {
    width:1024px;
-   height:320px;
+   height:120px;
    background-color:#bad1e4;
    font-size:100px;
    color:#84add0;
@@ -13,71 +13,31 @@
 }
 
 #leftMenu {
-   width:220px;
-   height:100%;
+   width:190px;
+   min-height:650px;
    background-color:#f1f1f1;
    float:left;
-   font-size:40px;
-   padding:20px;
-  
-	
+   font-size:20px;
+   padding:10px;
 
 }
 
 #content {
-   width:820px;
-   min-height:600px;
-   /*background-color:#ffCCff;*/
-   margin-left:180px;
+   width:790px;
+   min-height:650px;
+   margin-left:210px;
    padding:10px;
-  /* padding-top:20px;*/
    border:2px solid;
 }
 
-#topic {
-   min-height:600px;
-     
+
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
-.leftimg {
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }
-   
-.topicimg {
-	width:450px;
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }
-   
- .prevNews  { /* не используется */
-	min-height:190;
-  }
- .category{
-  margin: 0;
- }  
- .text{
-  margin: 0;
- }
- .autor{
- margin-top: 10; 
- color:#20B2AA;
- }
- .tableAdmin {
- border:1px solid;/* Рамка вокруг таблицы border: 1px solid green;  */
- margin: auto;
- width:700;
- 
- }
- .tableAdmin td{
- vertical-align: middle; 
- border: 1px solid black; 
- }
- .exit{
- float:right;
- }
- h2{
- margin: 0;
- }
- 
-   
+#task {
+    width:500px;
+    height:150px;
+}
+

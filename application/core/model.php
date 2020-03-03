@@ -3,31 +3,30 @@ class Model {
 	public $address_db  = 'localhost';
 	public $username_db = 'root';
 	public $password_db = '';
-	public $dbname   = 'db_news';
+	public $dbname   = 'db_zadachnik';
 	
 	function __construct(){
-	
-	}
+
+
+    }
 
 	public function connect_db(){
-	
+
 	return $link = mysqli_connect($this->address_db ,$this->username_db,$this->password_db,$this->dbname);
 
+
 	}
 
-	public function add_img($img_name,$img_tmpname){
-	
-	$uploaddir = Q_PATH.'/application/views/img/'; 
-    $uploadfile = $uploaddir.basename($img_name);
 
-    if (copy($img_tmpname,$uploadfile))
-    {
-    $load_file= SITE.'/application/views/img/'.$img_name;
+    public function TotalPages(){
+
+        $total_row = mysqli_num_rows(mysqli_query($this->connect_db(),"SELECT * FROM `tb_zadachi`"));
+        $total_page =   ceil($total_row / 3 );
+
+        return $total_page;
+
+
     }
-    else { $load_file="Error"; exit; }
 
-    //echo "sddsddsd".$load_file;
-	return $load_file;
-	
-	}
+
 }
